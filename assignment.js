@@ -9,7 +9,7 @@ function kilometerToMeter(kilometer){
     }
     //This code is for when there is a negative value as quantity.
     if(kilometer < 0){
-        return 'Distance cant be negative.';
+        return 'Distance can not be negative.';
     }
     else{
         meter = kilometer * 1000;
@@ -22,7 +22,7 @@ function kilometerToMeter(kilometer){
 function budgetCalculator(watch, mobile, laptop){
     //This code is for when there is a negative value as quantity.
     if(watch < 0 || mobile < 0 || laptop < 0){
-        return 'Quantity cant be negative';  
+        return 'Quantity can not be negative';  
     }
     // This code is for when the value is a floating number.
     else if(watch !== Number.isInteger || mobile !== Number.isInteger|| laptop !== Number.isInteger){
@@ -51,7 +51,7 @@ function hotelCost(day){
     }
     //This code is for when there is a negative value.
     else if(day < 0){
-        return 'Value of days cant be negative.';
+        return 'Value of days can not be negative.';
     }
     // This code is for when the value is a floating number.
     else if(day !== Number.isInteger){
