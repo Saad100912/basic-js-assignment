@@ -5,7 +5,7 @@
 function kilometerToMeter(kilometer){
     // This code is for when there is no value.
     if(kilometer == null){
-        return 'Please give a value of distance.'
+        return 'Please give a value of distance.';
     }
     //This code is for when there is a negative value as quantity.
     if(kilometer < 0){
